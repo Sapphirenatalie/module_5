@@ -20,5 +20,6 @@ class House:
 
 house_1 = House('Многоквартирный дом', 10)
 house_1.__setNewNumberOfFloors__(floors=8)
+
 print()
 house_1.__setNewNumberOfFloors__(int(input('Введите необходимое кол-во этажей: ')))
